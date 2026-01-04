@@ -16,7 +16,8 @@ const Navigation = () => {
 
   const navLinks = [
     { href: "#about", label: "About" },
-    { href: "#work", label: "Work" },
+    { href: "#experience", label: "Experience" },
+    { href: "#certifications", label: "Certifications" },
     { href: "#skills", label: "Skills" },
     { href: "#contact", label: "Contact" },
   ];
@@ -35,7 +36,7 @@ const Navigation = () => {
             href="#"
             className="font-serif text-2xl font-semibold text-foreground hover:text-primary transition-colors"
           >
-            Portfolio
+            Ahmed E.
           </a>
 
           {/* Desktop Navigation */}
@@ -49,8 +50,8 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Let's Talk
+            <Button variant="hero" size="sm" asChild>
+              <a href="#contact">Let's Talk</a>
             </Button>
           </div>
 
@@ -77,8 +78,8 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" className="mt-4">
-                Let's Talk
+              <Button variant="hero" className="mt-4" asChild>
+                <a href="#contact">Let's Talk</a>
               </Button>
             </div>
           </div>

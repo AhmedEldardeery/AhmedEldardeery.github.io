@@ -1,21 +1,26 @@
-import { Sparkles, Code2, Palette } from "lucide-react";
+import { Shield, Network, Bug, Brain } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
-      icon: Code2,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code that stands the test of time.",
+      icon: Shield,
+      title: "Penetration Testing",
+      description: "Infrastructure security assessments and vulnerability analysis.",
     },
     {
-      icon: Palette,
-      title: "Design Focus",
-      description: "Creating visually stunning interfaces that captivate users.",
+      icon: Network,
+      title: "SOC Operations",
+      description: "Security monitoring, threat detection, and incident response.",
     },
     {
-      icon: Sparkles,
-      title: "Innovation",
-      description: "Embracing new technologies to deliver cutting-edge solutions.",
+      icon: Bug,
+      title: "Malware Analysis",
+      description: "Digital forensics and incident response (DFIR) expertise.",
+    },
+    {
+      icon: Brain,
+      title: "Continuous Learning",
+      description: "Committed to staying ahead with latest security techniques.",
     },
   ];
 
@@ -29,20 +34,25 @@ const About = () => {
               About Me
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold mb-8">
-              Passionate about creating
-              <span className="text-gradient"> meaningful</span> digital
-              experiences
+              Passionate about
+              <span className="text-gradient"> cybersecurity</span> and
+              innovation
             </h2>
             <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
               <p>
-                With over 5 years of experience in web development and design, I
-                specialize in building modern, responsive applications that not
-                only look great but perform exceptionally.
+                I'm an Electronics & Communication Engineering student at Helwan University (2021-2025) 
+                with practical experience through internships at Cisco Networking Academy, WE Innovate, 
+                and cybersecurity workshops at Information Technology Institute.
               </p>
               <p>
-                I believe in the power of collaboration and continuous learning.
-                Every project is an opportunity to push boundaries and create
-                something truly remarkable.
+                My technical expertise spans Python, C++, Assembly, and Embedded Systems with hands-on 
+                experience on Microchip and Arduino platforms. Through effective collaboration with 
+                teams from different organizations, I've developed strong communication, leadership, 
+                and problem-solving skills.
+              </p>
+              <p>
+                Managing multiple projects and tackling technical challenges has honed my critical 
+                thinking, decision-making, and stress management abilities in fast-paced environments.
               </p>
             </div>
           </div>

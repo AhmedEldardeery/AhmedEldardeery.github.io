@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -10,25 +10,31 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-primary font-medium tracking-widest uppercase text-sm mb-6 animate-fade-up opacity-0 stagger-1">
-            Welcome to my portfolio
-          </p>
+          <div className="flex items-center justify-center gap-2 mb-6 animate-fade-up opacity-0 stagger-1">
+            <Shield size={20} className="text-primary" />
+            <p className="text-primary font-medium tracking-widest uppercase text-sm">
+              Cybersecurity Professional
+            </p>
+          </div>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold leading-tight mb-8 animate-fade-up opacity-0 stagger-2">
-            Creative
-            <span className="block text-gradient">Developer</span>
-            & Designer
+            Ahmed
+            <span className="block text-gradient">Eldardeery</span>
           </h1>
 
-          <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up opacity-0 stagger-3">
-            I craft digital experiences that blend beautiful design with
-            powerful functionality. Turning complex ideas into elegant,
-            user-focused solutions.
+          <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-6 leading-relaxed animate-fade-up opacity-0 stagger-3">
+            Penetration Tester & SOC Analyst with expertise in infrastructure security, 
+            incident response, and digital forensics. Electronics & Communication Engineering 
+            student passionate about cybersecurity innovation.
+          </p>
+
+          <p className="text-muted-foreground/70 text-sm mb-12 animate-fade-up opacity-0 stagger-3">
+            📍 Giza, Egypt
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up opacity-0 stagger-4">
             <Button variant="hero" size="xl" asChild>
-              <a href="#work">View My Work</a>
+              <a href="#certifications">View Certifications</a>
             </Button>
             <Button variant="outline" size="xl" asChild>
               <a href="#contact">Get In Touch</a>

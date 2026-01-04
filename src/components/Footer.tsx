@@ -9,11 +9,11 @@ const Footer = () => {
             href="#"
             className="font-serif text-xl font-semibold text-foreground hover:text-primary transition-colors"
           >
-            Portfolio
+            Ahmed Eldardeery
           </a>
 
           <p className="text-muted-foreground text-sm">
-            © {currentYear} All rights reserved. Crafted with passion.
+            © {currentYear} Ahmed Eldardeery. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">
@@ -24,10 +24,10 @@ const Footer = () => {
               About
             </a>
             <a
-              href="#work"
+              href="#certifications"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >
-              Work
+              Certifications
             </a>
             <a
               href="#contact"
