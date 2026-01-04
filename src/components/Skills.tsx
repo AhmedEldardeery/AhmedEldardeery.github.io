@@ -1,25 +1,33 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+      title: "Offensive Security",
+      skills: ["Penetration Testing", "Infrastructure Security", "Vulnerability Assessment", "Network Attacks", "Web Application Security"],
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"],
+      title: "Defensive Security",
+      skills: ["SOC Operations", "Threat Detection", "Incident Response", "DFIR", "Security Monitoring"],
     },
     {
-      title: "Design",
-      skills: ["Figma", "Adobe XD", "Prototyping", "UI/UX", "Brand Design"],
+      title: "Programming",
+      skills: ["Python", "C++", "Assembly", "Bash Scripting", "PowerShell"],
     },
     {
-      title: "Tools",
-      skills: ["Git", "Docker", "AWS", "Vercel", "CI/CD"],
+      title: "Networking & Tools",
+      skills: ["Cisco Networks", "Wireshark", "Nmap", "Metasploit", "Burp Suite"],
+    },
+    {
+      title: "Systems",
+      skills: ["Linux Administration", "Windows Security", "Embedded Systems", "Microchip", "Arduino"],
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Team Leadership", "Problem Solving", "Critical Thinking", "Communication", "Time Management"],
     },
   ];
 
   return (
-    <section id="skills" className="py-32">
+    <section id="skills" className="py-32 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
@@ -30,7 +38,7 @@ const Skills = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <div
               key={category.title}
